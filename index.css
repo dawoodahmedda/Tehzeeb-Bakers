@@ -1,0 +1,648 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 17vh;
+}
+
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo img {
+  width: 100%;
+  height: 14vh;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  font-size: 14px;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero-section .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-section .image img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.hero-section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.hero-section h1 {
+  font-size: 50px;
+}
+
+.hero-section h3 {
+  font-size: 50px;
+}
+
+.biscuit-collection {
+  display: flex;
+  color: white;
+  background-color: #f6b99d;
+  width: 100%;
+  height: 165vh;
+  margin-top: -65px;
+  justify-content: center;
+  text-align: center;
+}
+
+.biscuit-content h1 {
+  margin-top: 50px;
+  font-size: 42px;
+}
+
+.biscuit-content h2 {
+  font-size: 40px;
+}
+
+.biscuit-content hr {
+  background-color: white;
+  height: 3px;
+  border-width: 0;
+}
+
+.biscuit-content p {
+  margin-top: 30px;
+  font-size: 36px;
+}
+
+.biscuit-info {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.biscuit-info p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.biscuit-info1 {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.biscuit-info1 p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.tradition-info {
+  display: flex;
+  color: white;
+  background-color: #e8cba9;
+  width: 100%;
+  height: 112vh;
+  margin-top: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+.tradition-info .container {
+  margin-top: 40px;
+}
+
+.tradition-content img {
+  width: 25%;
+}
+
+.tradition-inner-content p {
+  color: white;
+  margin: 20px 240px 30px;
+}
+
+.tradition-inner-content img {
+  width: 35%;
+}
+
+.bread-info {
+  display: flex;
+  color: white;
+  background-color: #eabbb4;
+  width: 100%;
+  height: 62vh;
+  margin-top: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+.bread-info .container {
+  margin-top: 40px;
+}
+
+.bread-content img {
+  width: 45%;
+  margin-left: 730px;
+  margin-top: -150px;
+}
+
+.bread-content h1 {
+  font-size: 30px;
+  color: brown;
+  display: flex;
+  justify-content: start;
+  margin-left: 200px;
+  margin-top: 90px;
+}
+
+.bread-content h2 {
+  font-size: 26px;
+  font-weight: 400;
+  display: flex;
+  justify-content: start;
+  margin-left: 120px;
+}
+
+.bread-content hr {
+  background-color: white;
+  height: 3px;
+  width: 10%;
+  border-width: 0;
+  margin-left: 200px;
+}
+
+.donut-info {
+  display: flex;
+  color: white;
+  background-color: #f6b99d;
+  width: 100%;
+  height: 62vh;
+  margin-top: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+.donut-info .container {
+  margin-top: 40px;
+}
+
+.donut-content img {
+  width: 25%;
+  margin-left: 973px;
+  margin-top: -190px;
+}
+
+.donut-img2 img {
+  width: 25%;
+  margin-left: -1050px;
+  margin-top: -105px;
+}
+
+.donut-content h1 {
+  font-size: 30px;
+  color: brown;
+  display: flex;
+  justify-content: start;
+  margin-left: 350px;
+  margin-top: 90px;
+}
+
+.donut-content h2 {
+  font-size: 26px;
+  font-weight: 400;
+  display: flex;
+  justify-content: start;
+  margin-left: 210px;
+}
+
+.donut-content hr {
+  background-color: white;
+  height: 3px;
+  width: 39%;
+  border-width: 0;
+  margin-left: 210px;
+}
+
+.samosa-info {
+  display: flex;
+  color: white;
+  background-color: #e8cba9;
+  width: 100%;
+  height: 62vh;
+  margin-top: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+.samosa-info .container {
+  margin-top: 40px;
+}
+
+.samosa-content img {
+  width: 35%;
+  margin-left: 850px;
+  margin-top: -240px;
+}
+
+.samosa-content h1 {
+  font-size: 30px;
+  color: brown;
+  display: flex;
+  justify-content: start;
+  margin-left: 200px;
+  margin-top: 90px;
+}
+
+.samosa-content h2 {
+  font-size: 26px;
+  font-weight: 400;
+  display: flex;
+  justify-content: start;
+  margin-left: 90px;
+}
+
+.samosa-content h3 {
+  font-size: 26px;
+  font-weight: 400;
+  display: flex;
+  justify-content: start;
+  margin-left: 170px;
+}
+
+.samosa-content hr {
+  background-color: white;
+  height: 3px;
+  width: 10%;
+  border-width: 0;
+  margin-left: 200px;
+}
+
+.pastery-info {
+  display: flex;
+  color: white;
+  background-color: #e8cba9;
+  width: 100%;
+  height: 62vh;
+  margin-top: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+.pastery-info .container {
+  margin-top: 40px;
+}
+
+.pastery-content img {
+  width: 65%;
+  margin-left: -800px;
+  margin-top: -170px;
+}
+
+.pastery-content h1 {
+  font-size: 30px;
+  color: brown;
+  display: flex;
+  justify-content: start;
+  margin-left: 200px;
+  margin-top: 90px;
+}
+
+.pastery-content h2 {
+  font-size: 26px;
+  font-weight: 400;
+  display: flex;
+  justify-content: start;
+  margin-left: 355px;
+}
+
+.pastery-content hr {
+  background-color: white;
+  height: 3px;
+  width: 71%;
+  border-width: 0;
+  margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nimkopuff-info {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: #e8cba9;
+  width: 100%;
+  height: 92vh;
+  margin-top: 5px;
+}
+
+.nimkopuff-info .container1, .nimkopuff-info .container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 20px;
+}
+
+.nimko-content h1{
+  font-size: 24px;
+  color: white;
+  margin-left: -100px;
+  text-align: center;
+}
+ .pizza-content h1 {
+  font-size: 24px;
+  color: white;
+  margin-left: -100px;
+  text-align: center;
+}
+
+.nimko-content img{
+  width: 80%;
+  max-width: 400px;
+} .pizza-content img {
+  width: 70%;
+  margin-top: 30px;
+  max-width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services-info {
+  background-color: #f3f3f3;
+  padding: 20px;
+  height: 35vh;
+  margin-top: 15px;
+}
+
+.services-info .container {
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.services-links h4 {
+  font-size: 14px;
+  gap: 3px;
+}
+
+.services-links li {
+  font-size: 12px;
+  padding: 8px;
+  font-weight: 900;
+  color: grey;
+}
+
+.footer {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: grey;
+}
+
+@media (max-width: 768px) {
+  .hero-section .container {
+    height: 60vh;
+  }
+
+  nav ul {
+    gap: 5px;
+    flex-direction: column;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+
+  .hero-section {
+    height: 76vh;
+    margin-bottom: -240px;
+  }
+
+
+  .biscuit-collection {
+    
+    flex-direction: column;
+    height: 680vh;
+    
+    margin-top: 195px;
+  }
+
+  .biscuit-collection .container{
+    margin-top: -4650px;
+  }
+
+  .biscuit-content p {
+    font-size: 20px;
+  }
+
+  .biscuit-info,
+  .biscuit-info1 {
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 40px;
+   
+  }
+.tradition-content img{
+  width: 100%;
+}
+
+
+  .bread-info h1 {
+    margin-top: -0px;
+    margin-bottom: -60px;
+  }
+  .donut-info {
+    margin-top: -170px;
+  }
+  .samosa-info {
+    margin-top: 300px;
+    padding-top: -120px;
+    height: 40%;
+  }
+
+  .samosa-info .container {
+    margin-top: -60px;
+  }
+  .pastery-info {
+    flex-direction: column;
+    height: 70vh;
+    gap: 30px;
+  }
+
+  .bread-content img {
+    width: 100%;
+    margin: 0;
+    margin-top: 0px;
+  }
+  .donut-content img {
+    width: 38%;
+    margin: 0;
+    margin-top: 0px;
+  }
+  .samosa-content img {
+    width: 60%;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .pastery-content img {
+    width: 40%;
+    margin: 0;
+    margin-top: -30px;
+  }
+
+  .bread-content h1,
+  .donut-content h1,
+  .samosa-content h1,
+  .pastery-content h1 {
+    font-size: 24px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .bread-content h2,
+  .donut-content h2,
+  .samosa-content h2,
+  .pastery-content h2 {
+    font-size: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .samosa-content h3 {
+    font-size: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .bread-content hr,
+  .donut-content hr,
+  .samosa-content hr,
+  .pastery-content hr {
+    width: 20%;
+    margin: 10px auto;
+  }
+
+  .tradition-inner-content p {
+    margin: 10px 20px;
+  }
+
+
+
+  .nimkopuff-info {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .nimkopuff-info .container1, .nimkopuff-info .container2 {
+    width: 100%;
+  }
+
+  .nimko-content img, .pizza-content img {
+    width: 100%;
+    max-width: none;
+  }
+
+  .services-info .container {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+  }
+
+  .services-links h4 {
+    font-size: 12px;
+  }
+
+  .services-links li {
+    font-size: 10px;
+  }
+}
